@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en-US" style="scroll-behavior: smooth;">
+
+<head>
+    <title>Allison Chae - Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fafaf3">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/cefbebdc70.js"></script>
+    <link rel="stylesheet" type="text/css" href="public/css/index.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+</head>
+
+<body>
+    <div style="min-height: 100vh;">
+        <nav>
+            <span>Allison Chae</span>
+            <a href="#about">About</a>
+            <a href="#cv">CV</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="two-container top">
+            <div class="home-about">
+                <h1 id="home-anchor" data-aos="fade-up" data-aos-duration="1250">I&apos;m a <span
+                        class="sketch-highlight">medical student</span> interested in radiology and leveraging
+                    technology to <span class="circle-sketch-highlight">improve human health</span>.</h1>
+                <h2 data-aos="fade-up" data-aos-duration="1250" data-aos-delay="250" data-aos-anchor="#home-anchor">
+                    Check out some of my <a href="#cv">projects</a> and what I do for <a href="#fun">fun</a>! Get in
+                    touch with me on <a href="https://linkedin.com/in/allisonjchae" target="_blank">LinkedIn</a> or <a
+                        href="mailto:jisoo.chae@pennmedicine.upenn.edu">email</a>.</h2>
+            </div>
+            <div>
+                <img class="home-image" src="public/images/headshot.webp"
+                    alt="Allison Chae Headshot" />
+            </div>
+        </div>
+    </div>
+
+    <h1 class="section-header" id="about" data-aos="fade-up" data-aos-duration="1250">About Me</h1>
+    <div id="about-content" class="two-container">
+        <div class="media">
+            <label class="form-switch">
+                <input type="checkbox" onclick="toggleAboutLanguage(this);">
+                <i></i>
+                Toggle for 한글 !
+            </label>
+            <img class="about-image" src="public/images/us.png"
+                alt="Allison Chae Ultrasound" loading="lazy" />
+        </div>
+        <div class="text" data-aos="fade-up" data-aos-duration="1250" data-aos-delay="250" data-aos-anchor="#about">
+            <p class="en" style="font-weight: 500;">I&apos;m a <span id="x-year-en"></span> medical student at the <b
+                    class="accent">University of Pennsylvania</b> interested in diagnostic radiology.</p>
+            <p class="kr" style="font-weight: 500;"><span>저는</span> <span>영상의학과에</span> <span>지원하는</span> <b
+                    class="accent">University of Pennsylvania</b> <span>의</span> <span>의대</span> <span><span
+                        id="x-year-kr"></span>학년</span> <span>학생입니다.</span></p>
+            <p class="en faded">I do research exploring clinical applications of <b class="accent">up-and-coming
+                    technologies</b> to radiologist workflows, and help lead the ultrasound and radiology interest
+                groups at Penn.</p>
+            <p class="kr faded"><span>저는</span> <span> 방사선</span> <span>전문의</span> <span>워크플로에</span> <span>대한</span> <b
+                    class="accent"><span>최신</span></b> <span><b class="accent">기술</b>의</span> <span>임상</span>
+                <span>적용을</span> <span>탐구하는</span> <span>연구를</span> <span>하고</span> Penn <span>에서</span>
+                <span>초음파</span> <span>및</span> <span>방사선</span> <span>분야의</span> <span>관심</span> <span>그룹을</span>
+                <span>이끄는</span> <span>데</span> <span>도움을</span> <span>줍니다.</span>
+            </p>
+            <p class="en faded">I&apos;m passionate about developing <b class="accent">responsible and ethical AI</b> to
+                improve patient outcomes and <b class="accent">equitable care</b>.</p>
+            <p class="kr faded"><span>저는</span> </span>환자</span> <span>결과와</span> <span><b class="accent">공평한</b></span>
+                <span><b class="accent">치료</b>를</span> <span>개선하기</span> <span>위해</span> <span><b
+                        class="accent">윤리적인</b></span> <span><b class="accent">AI</b>를</span> <span> 개발하고</span> <span>
+                    있습니다.</span>
+            </p>
+            <p class="en faded">Prior to med school, I graduated from <b class="accent">USC</b> with a Bachelor&apos;s
+                in Biology and minor in Accounting.</p>
+            <p class="kr faded"><span>의대에</span> <span>입학하기</span> <span>전에</span> <span>저는</span> <span><b
+                        class="accent">USC</b></span> <span>에서</span> <span>생물학</span> <span>학사,</span> <span>회계학</span>
+                <span>부전공으로</span> <span>졸업했습니다.</span>
+            </p>
+        </div>
+    </div>
+
+    <h1 class="section-header" id="cv" style="margin-top: 75px;" data-aos="fade-up" data-aos-duration="1250">Curriculum
+        Vitae</h1>
+    <div id="cv-content">
+        <p class="faded" style="text-align: center;width: 95%;margin: 0 auto;" data-aos="fade-up"
+            data-aos-duration="1250" data-aos-anchor="#cv">A PDF copy of my CV can be found <a
+                href="public/chae_allison_resume.pdf" download
+                target="_blank">here</a>.</p>
+        <h2 class="accent" data-aos="fade-up" data-aos-duration="1250" data-aos-delay="250" data-aos-anchor="#cv">
+            Education</h2>
+        <div class="two-container uneven" data-aos="fade-up" data-aos-duration="1250" data-aos-delay="500"
+            data-aos-anchor="#cv" style="align-items: start;">
+            <p class="dates">2021-Present</p>
+            <p style="margin-bottom: 10px;">
+                <b style="letter-spacing: 0.5px;">MD Candidate</b> (University of Pennsylvania)<br />
+                <span class="description">
+                  2023 A&Omega;A Carolyn L. Kuckein Student Research Fellowship Recipient<br />
+                  USMLE Step 2 CK: 264 | USMLE Step 1: Pass
+                </span>
+            </p>
+
+            <p class="dates">2017-2020</p>
+            <p>
+                <b style="letter-spacing: 0.5px;">BA Biology, Minor in Accounting</b> (University of Southern
+                California)
+            </p>
+        </div>
+
+        <h2 class="accent" data-aos="fade-up" data-aos-duration="1250" data-aos-delay="500" data-aos-anchor="#cv">
+            Publications and Talks</h2>
+        <p style="margin-bottom: 15px;" data-aos="fade-up" data-aos-duration="1250" data-aos-delay="500"
+            data-aos-anchor="#cv">Yao MS, <b>Chae A</b>, Kahn CE, Witschey WR, Gee JC, Sagreiya H&dagger;,
+            Bastani O&dagger; (2024). Evidence Is All You Need: Ordering Imaging Studies via Language Model
+            Alignment with the ACR Appropriateness Criteria. <a
+                href="https://arxiv.org/abs/2409.19177v2" target="_blank">Preprint</a></p>
+        <p style="margin-bottom: 15px;" data-aos="fade-up" data-aos-duration="1250" data-aos-delay="500"
+            data-aos-anchor="#cv"><b>Chae A</b>&dagger;, Yao MS&dagger;, Sagreiya H, Chatterjee N, MacLean MT, Duda J,
+            Elahi A, Borthakur A, Ritchie MD, Rader D, Kahn CE, Witschey WR, Gee JC. (2023). Strategies for Implementing
+            Machine Learning Algorithms in the Clinical Practice of Radiology. <a
+                href="https://pubs.rsna.org/doi/10.1148/radiol.223170" target="_blank">RSNA Radiology</a></p>
+        <p style="margin-bottom: 15px;" data-aos="fade-up" data-aos-duration="1250" data-aos-delay="500"
+            data-aos-anchor="#cv">Yao MS&dagger;, <b>Chae A</b>&dagger;, MacLean MT, Verma A, Duda J, Gee JC, Torigian
+            DA, Rader D, Kahn CE, Witschey WR, Sagreiya H. (2023). SynthA1c: Patient Representations for Diabetes Risk
+            Stratification. <a href="https://link.springer.com/chapter/10.1007/978-3-031-46005-0_5"
+                target="_blank">Proc. PRIME-MICCAI 2023</a></p>
+        <p style="margin-bottom: 15px;" data-aos="fade-up" data-aos-duration="1250" data-aos-delay="500"
+            data-aos-anchor="#cv"><b>Chae A</b>, Yao M, MacLean MT, Verma A, Duda J, Gee J, Torigian DA, Rader D, Kahn
+            C, Witschey WR, Sagreiya H. (2022). Augmenting Type 2 Diabetes Mellitus Risk Prediction Models with
+            Learning-Based Methods for Medical Image Analysis. Oral presentation at <a
+                href="https://siim.org/page/2022cmimi" target="_blank">SIIM Conference on Machine Intelligence in
+                Medical Imaging (CMIMI)</a>
+        <p style="margin-bottom: 15px;" data-aos="fade-up" data-aos-duration="1250" data-aos-delay="500"
+            data-aos-anchor="#cv">Khunte M, <b>Chae A</b>, Wang R, Jain R, Sun Y, Sollee JR, Jiao Z, Bai HX. (2022).
+            Trends in Clinical Validation and Usage of FDA-Cleared AI Algorithms for Medical Imaging. <a
+                href="https://doi.org/10.1016/j.crad.2022.09.122" target="_blank">Clinical Radiology</a></p>
+        <p style="margin-bottom: 15px;font-size: 14px;" data-aos="fade-up" data-aos-duration="1250" data-aos-delay="500"
+            data-aos-anchor="#cv">&dagger;Equal contribution.</p>
+
+        <h2 class="accent" data-aos="fade-up" data-aos-duration="1250" data-aos-delay="750" data-aos-anchor="#cv">
+            Relevant Experience</h2>
+        <div class="two-container uneven" style="align-items: start;grid-row-gap: 15px;" data-aos="fade-up"
+            data-aos-duration="1250" data-aos-delay="1000" data-aos-anchor="#cv">
+            <p class="dates">2022-Present</p>
+            <div>
+                <p><b style="letter-spacing: 0.5px;">Research Fellow</b>, <a href="https://www.med.upenn.edu/corlab/"
+                        target="_blank">Advanced Cardiovascular Imaging Lab</a> (University of Pennsylvania)</p>
+                <p class="description">Implemented fully supervised and interpretable deep learning models to predict
+                    patient Type 2 Diabetes risk from abdominal CT scans, and explored topological metrics to assess
+                    model generalization capacity to out-of-domain distributions. Supported by the A&Omega;A Carolyn L.
+                    Kuckein Student Research Fellowship and the Diagnostic Radiology Research Fellowship at the
+                    University of Pennsylvania.</p>
+            </div>
+
+            <p class="dates">2024-Present</p>
+            <div>
+                <p><b style="letter-spacing: 0.5px;">Author</b>, <a href="https://eamc-penn.github.io"
+                        target="_blank">Ethical Algorithms for the Modern Clinician</a> (University of Pennsylvania)</p>
+                <p class="description">Wrote a learning module for medical students at the University of Pennsylvania
+                    discussing ethical algorithm usage and human-computer interaction with machine learning systems in
+                    clinical workflows.</p>
+            </div>
+
+            <p class="dates">2021-Present</p>
+            <div>
+                <p><b style="letter-spacing: 0.5px;">Chair</b>, Radiology Interest Group (University of Pennsylvania)
+                </p>
+                <p class="description">Organize career panels and networking events for medical students interested in
+                    applying for residency in diagnostic radiology.</p>
+            </div>
+
+            <p class="dates">2021-2022</p>
+            <div>
+                <p><b style="letter-spacing: 0.5px;">Board Member</b>, SONO Ultrasound Interest Group (University of
+                    Pennsylvania)</p>
+                <p class="description">Host regular ultrasound scanning sessions for first-year medical students,
+                    ultrasound scanning competitions, career panels, and outreach ultrasound tutorials for high-school
+                    and college students.</p>
+            </div>
+
+            <p class="dates">2021-2022</p>
+            <div>
+                <p><b style="letter-spacing: 0.5px;">Research Fellow</b>, <a href="https://sites.brown.edu/airadiology/"
+                        target="_blank">Radiology AI Lab</a> (Brown University)</p>
+                <p class="description">Investigated trends in FDA-cleared AI algorithms for medical imaging. Conducted a
+                    retrospective study that analyzed 510(k) summaries and de novo request submittion data using
+                    Microsoft Excel and Python.</p>
+            </div>
+
+            <p class="dates">2021-2022</p>
+            <div>
+                <p><b style="letter-spacing: 0.5px;">Product Strategist</b>, <a href="https://sentinelcloud.io"
+                        target="_blank">Sentinel Cloud</a></p>
+                <p class="description">Lead design and feature development of a web-based EHR. Conduct market research
+                    to identify the company&apos;s target market and overall industry trends.</p>
+            </div>
+
+            <p class="dates">2021</p>
+            <div>
+                <p><b style="letter-spacing: 0.5px;">Consultant</b>, <a href="https://pennbiotechgroup.org"
+                        target="_blank">Penn Biotech Group</a> (University of Pennsylvania)</p>
+                <p class="description">Part-time consultant for a Series A medical imaging startup. Assessed the
+                    clinical limitations of currently available imaging modalities and their cardiovascular indications.
+                </p>
+            </div>
+
+            <p class="dates">2020-2021</p>
+            <div>
+                <p><b style="letter-spacing: 0.5px;">Senior Content Developer</b>, <a href="https://blueprintprep.com/"
+                        target="_blank">Blueprint Test Prep</a></p>
+                <p class="description">Planned, developed and launched the <a
+                        href="https://blueprintprep.com/mcat/live-online" target="_blank">MCAT Live Online</a> Course
+                    that has made $8+ million in revenue to date. Helped redesign content team management structure
+                    through advocating for Scrum workflow adaptation, and implementation of OKR&apos;s and Sprint
+                    management tools.</p>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="accent" data-aos="fade-up" data-aos-duration="1250" data-aos-delay="1000" data-aos-anchor="#cv">
+        Teaching and Mentorship</h2>
+    <div class="two-container uneven" data-aos="fade-up" data-aos-duration="1250" data-aos-delay="1000"
+        data-aos-anchor="#cv" style="align-items: start;">
+        <p class="dates" style="margin-bottom: 0;padding-bottom: 0;">2024-Present</p>
+        <p style="margin-bottom: 0;padding-bottom: 0;">
+            <b style="letter-spacing: 0.5px;">Instructor, Diagnostic Ultrasound</b> (University of Pennsylvania)
+        </p>
+
+        <p class="dates" style="margin-top: 0;padding-top: 0;">2024-Present</p>
+        <p style="margin-top: 0;padding-top: 0;">
+            <b style="letter-spacing: 0.5px;">TA, Clerkship Prep</b> (University of Pennsylvania)
+        </p>
+    </div>
+
+    <h1 class="section-header" id="contact" style="margin-top: 75px;" data-aos="fade-up" data-aos-duration="1250">
+        Let&apos;s Talk!</h1>
+    <div id="contact-content" class="two-container">
+        <div class="social-item" onclick="window.open('https://www.linkedin.com/in/allisonjchae/', 'new_window');"
+            data-aos="fade-up" data-aos-duration="1250" data-aos-delay="250" data-aos-anchor="#contact"><i
+                class="fa fa-linkedin-square social-icon"></i>
+            <p>allisonjchae</p>
+        </div>
+        <div class="social-item" id="email" data-aos="fade-up" data-aos-duration="1250" data-aos-delay="500"
+            data-aos-anchor="#contact"><i class="fa fa-envelope social-icon"></i>
+            <p>jisoo [dot] chae [at] pennmedicine [dot] upenn [dot] edu</p>
+        </div>
+    </div>
+    <footer>
+        <p>&#169;<span id="footer-current-year"></span> Allison Chae. All rights reserved.</p>
+    </footer>
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+    <script type="text/javascript" src="public/js/index.js"></script>
+</body>
+
+</html>
